@@ -1,5 +1,3 @@
-chrome.contextMenus.removeAll();
-
 function changeStorage(value) {
     var today = new Date();
     var todayStr = today.toISOString().slice(0, 10); // http://stackoverflow.com/a/11172083/2610955
